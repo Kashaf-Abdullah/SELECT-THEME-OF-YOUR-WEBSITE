@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+  *{
+      margin:0;
+      padding:0;
+  }
+  header{
+      background: black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  nav{
+      display:flex;
+     
+  }
+  nav ul {
+      height:58px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+  
+  }
+  nav ul li{
+    list-style: none;
+    padding:0px 23px;
+
+  }
+  nav ul li a{
+      color:white;
+      text-decoration: none;
+
+  }
+  nav ul li a:hover{
+      color:black;
+      font-weight: bolder;
+  }
+  footer{
+    height:12vh;
+     background-color: black;
+     color:white;
+     font-family: 'Baloo Bhaina 2', cursive;
+ }
+ .flex-all-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   position:relative;
+   top:542px;
+ }
